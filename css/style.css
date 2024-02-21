@@ -39,11 +39,16 @@ h2 {
 
 .btn-primary {
   background-color: #392815;
-  border-color: #392815;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 .btn-primary:hover {
-  background-color: #A75E0B;
-  border-color: #A75E0B;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.726);
 }
 
 body {

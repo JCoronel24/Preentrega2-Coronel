@@ -1,9 +1,15 @@
+// personalizacion de los botones
 .btn-primary {
     background-color: $background-color2;
-    border-color: $background-color2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; 
 
     &:hover {
-        background-color: $background-color3;
-        border-color: $background-color3;
+        transform: scale(1.1); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.726); 
     }
 }
