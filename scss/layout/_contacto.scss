@@ -2,19 +2,15 @@
     @include portada();
 }
 
-
 .form-requisitos {
     padding: 0;
     gap: 6vh;
     flex-direction: column;
+
+    .row {
+        padding: 0 4vw;
+    }
 }
-
-.form-requisitos .row {
-    padding: 0 4vw;
-}
-
-
-
 
 
 

@@ -41,7 +41,6 @@ h2 {
   background-color: #392815;
   border-color: #392815;
 }
-
 .btn-primary:hover {
   background-color: #A75E0B;
   border-color: #A75E0B;
@@ -82,7 +81,6 @@ body {
   padding: 10px;
   display: inline-block;
 }
-
 .row .col a:hover {
   color: #A75E0B;
   transform: scale(1.1);
@@ -96,7 +94,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .portada h1 {
   font-family: "Danc_Script";
   font-size: 60px;
@@ -112,11 +109,9 @@ body {
   justify-content: center;
   gap: 6vh;
 }
-
 .ayudanos p {
   font-size: 2.6vw;
 }
-
 .ayudanos h2 {
   font-family: "Danc_Script";
   font-size: 60px;
@@ -127,7 +122,6 @@ body {
 .slide {
   background-color: #392815;
 }
-
 .slide h2 {
   display: flex;
   flex-direction: row;
@@ -174,7 +168,6 @@ body {
   gap: 6vh;
   flex-direction: column;
 }
-
 .form-requisitos .row {
   padding: 0 4vw;
 }
@@ -183,26 +176,23 @@ body {
   .ayudanos p {
     font-size: 1.5vw;
   }
-}
-@media (min-width: 768px) {
   .fs-responsive {
     font-size: 1.25rem;
   }
-}
-@media (min-width: 992px) {
-  .fs-responsive {
-    font-size: 1.5rem;
-  }
-}
-@media (min-width: 768px) {
   .card-header {
     font-size: 2rem;
   }
   .form-label {
     font-size: 1.1rem;
   }
+  .row .col a {
+    font-size: 3rem;
+  }
 }
 @media (min-width: 992px) {
+  .fs-responsive {
+    font-size: 1.5rem;
+  }
   .card-header {
     font-size: 2.5rem;
   }
@@ -210,17 +200,7 @@ body {
     font-size: 1.2rem;
   }
 }
-@media (min-width: 576px) {
-  .row .col a {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 768px) {
-  .row .col a {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .portada h1 {
     font-size: 5vh;
   }
@@ -238,7 +218,6 @@ body {
   background-color: #392815;
   flex-direction: column;
 }
-
 .adoptados h2 {
   display: flex;
   flex-direction: row;
@@ -265,7 +244,6 @@ body {
   gap: 6vh;
   flex-direction: column;
 }
-
 .form-requisitos .row {
   padding: 0 4vw;
 }

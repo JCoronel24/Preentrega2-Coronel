@@ -1,15 +1,14 @@
 
 .portada {
     @include portada();
-}
 
-.portada h1 {
-    font-family: $font-familyd;
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 900;
+    h1 {
+        font-family: $font-familyd;
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 900;
+    }
 }
-
 
 .ayudanos {
     background-color: $background-color1;
@@ -18,36 +17,34 @@
     align-items: center;
     justify-content: center;
     gap: 6vh;
-}
 
-.ayudanos p {
-    font-size: 2.6vw;
-}
+    p {
+        font-size: 2.6vw;
+    }
 
-.ayudanos h2 {
-    font-family: $font-familyd;
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 900;
+    h2 {
+        font-family: $font-familyd;
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 900;
+    }
 }
 
 .slide {
     background-color: $background-color2;
+
+    h2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-family: $font-familyd;
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 900;
+        color: $color2;
+    }
 }
-
-.slide h2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: $font-familyd;
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 900;
-    color: $color2;
-}
-
-
 
 
 
