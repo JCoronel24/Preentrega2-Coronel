@@ -1,0 +1,13 @@
+.portada {
+    @include portada();
+}
+
+.form-requisitos {
+    padding: 0;
+    gap: 6vh;
+    flex-direction: column;
+}
+
+.form-requisitos .row {
+    padding: 0 4vw;
+}

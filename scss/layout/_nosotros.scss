@@ -1,0 +1,24 @@
+.portada {
+    @include portada();
+}
+
+.adoptados {
+    background-color: $background-color2;
+    flex-direction: column;
+    
+}
+
+.adoptados h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-familyd;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 900;
+    color: $color2;
+}
+
+
+

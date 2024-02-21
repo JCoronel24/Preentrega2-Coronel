@@ -1,317 +1,273 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: "Baloo_2";
-    src: url("../assets/fonts/Baloo_2/Baloo2-VariableFont_wght.ttf");
-}
-
-@font-face {
-    font-family: "Dancing_Script";
-    src: url("../assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Baloo_2";
+  font-family: "Baloo_2";
 }
-
-.navbar-custom {
-    font-size: 21px;
-}
-
-.navbar-brand {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.navbar-custom-list {
-    gap: 60px;
-}
-
-.nav-link:hover {
-    color: red;
-}
-
-.container-custom {
-    padding: 0;
-}
-
-.portada {
-    background-image: url("../assets/images/Gato\ naranjo\ portada.png");
-    height: 25vw;
-    background-size: cover;
-    background-position: center 32%;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.portada h1 {
-    font-family: "Danc_Script";
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 900;
-}
-
-
-.ayudanos {
-    background-color: #dacdbd;
-    height: 448px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 6vh;
-}
-
-.ayudanos p {
-    font-size: 2.6vw;
-}
-
-.ayudanos h2 {
-    font-family: "Danc_Script";
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 900;
-}
-
-.slide {
-    background-color: #392815;
-}
-
-.slide h2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: "Danc_Script";
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 900;
-    color: white;
-}
-
-.lista-adopcion {
-    background-image: url("../assets/images/Logo\ patita.png");
-    background-repeat: repeat;
-    background-size: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 6vh;
-    padding: 0;
-}
-
-.form-requisitos {
-    padding: 0;
-    gap: 6vh;
-    flex-direction: column;
-}
-
-.form-requisitos .row {
-    padding: 0 4vw;
-}
-
-@media (min-width: 768px) {
-    .ayudanos p {
-        font-size: 1.5vw;
-    }
-}
-
-.fs-responsive {
-    font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-    .fs-responsive {
-        font-size: 1.25rem; 
-    }
-}
-
-@media (min-width: 992px) {
-    .fs-responsive {
-        font-size: 1.5rem; 
-    }
-}
-
 
 section {
-    color: #333; 
-    font-family: "Baloo_2", sans-serif; 
+  color: #333;
+  font-family: "Baloo_2";
 }
 
 h2 {
-    margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
-
+@font-face {
+  font-family: "Baloo_2";
+  src: url("../assets/fonts/Baloo_2/Baloo2-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Dancing_Script";
+  src: url("../assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
 .card-header {
-    background-color: #f7f6f6;
-    font-family: "Baloo_2", sans-serif;
-    font-size: 1.5rem;
-    color: #333;
+  background-color: #f7f6f6;
+  font-family: "Baloo_2", sans-serif;
+  font-size: 1.5rem;
+  color: #333;
 }
 
-.form-label {
-    font-weight: bold;
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .btn-primary {
-    background-color: #392815;
-    border-color: #392815;
+  background-color: #392815;
+  border-color: #392815;
 }
 
 .btn-primary:hover {
-    background-color: #2a1d10;
-    border-color: #2a1d10;
+  background-color: #A75E0B;
+  border-color: #A75E0B;
 }
 
-
-.card {
-    border: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+body {
+  font-family: "Baloo_2";
 }
 
-
-@media (min-width: 768px) {
-    .card-header {
-        font-size: 2rem;
-    }
-
-    .form-label {
-        font-size: 1.1rem;
-    }
+.container-custom {
+  padding: 0;
 }
 
-@media (min-width: 992px) {
-    .card-header {
-        font-size: 2.5rem;
-    }
-
-    .form-label {
-        font-size: 1.2rem;
-    }
+.navbar-custom {
+  font-size: 21px;
 }
 
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar-custom-list {
+  gap: 60px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.form-label {
+  font-weight: bold;
+}
 
 .row .col a {
-    font-size: 2rem; 
-    color: #333; 
-    padding: 10px;
-    display: inline-block;
+  font-size: 2rem;
+  color: #333;
+  padding: 10px;
+  display: inline-block;
 }
 
 .row .col a:hover {
-    color: #666; 
-    transform: scale(1.1); 
+  color: #A75E0B;
+  transform: scale(1.1);
 }
 
+.portada {
+  background-image: url("../assets/images/Gato naranjo portada.png");
+  height: 25vw;
+  background-size: cover;
+  background-position: center 32%;
+  align-items: center;
+  justify-content: center;
+}
 
-@media (min-width: 576px) {
-    .row .col a {
-        font-size: 2.5rem;
-    }
+.portada h1 {
+  font-family: "Danc_Script";
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.ayudanos {
+  background-color: #dacdbd;
+  height: 448px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6vh;
+}
+
+.ayudanos p {
+  font-size: 2.6vw;
+}
+
+.ayudanos h2 {
+  font-family: "Danc_Script";
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.slide {
+  background-color: #392815;
+}
+
+.slide h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Danc_Script";
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 900;
+  color: white;
+}
+
+.portada {
+  background-image: url("../assets/images/Gato naranjo portada.png");
+  height: 25vw;
+  background-size: cover;
+  background-position: center 32%;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista-adopcion {
+  background-image: url("../assets/images/Logo patita.png");
+  background-repeat: repeat;
+  background-size: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6vh;
+  padding: 0;
+}
+
+.portada {
+  background-image: url("../assets/images/Gato naranjo portada.png");
+  height: 25vw;
+  background-size: cover;
+  background-position: center 32%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-requisitos {
+  padding: 0;
+  gap: 6vh;
+  flex-direction: column;
+}
+
+.form-requisitos .row {
+  padding: 0 4vw;
 }
 
 @media (min-width: 768px) {
-    .row .col a {
-        font-size: 3rem;
-    }
+  .ayudanos p {
+    font-size: 1.5vw;
+  }
+}
+@media (min-width: 768px) {
+  .fs-responsive {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .fs-responsive {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .card-header {
+    font-size: 2rem;
+  }
+  .form-label {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 992px) {
+  .card-header {
+    font-size: 2.5rem;
+  }
+  .form-label {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 576px) {
+  .row .col a {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .row .col a {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .portada h1 {
+    font-size: 5vh;
+  }
+}
+.portada {
+  background-image: url("../assets/images/Gato naranjo portada.png");
+  height: 25vw;
+  background-size: cover;
+  background-position: center 32%;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.adoptados {
+  background-color: #392815;
+  flex-direction: column;
+}
+
+.adoptados h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Danc_Script";
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 900;
+  color: white;
+}
+
+.portada {
+  background-image: url("../assets/images/Gato naranjo portada.png");
+  height: 25vw;
+  background-size: cover;
+  background-position: center 32%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-requisitos {
+  padding: 0;
+  gap: 6vh;
+  flex-direction: column;
+}
+
+.form-requisitos .row {
+  padding: 0 4vw;
+}
+
+/*# sourceMappingURL=style.css.map */
