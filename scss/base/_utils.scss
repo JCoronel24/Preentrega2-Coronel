@@ -18,6 +18,28 @@
     justify-content: center;
 }
 
+$colores: (
+    blanco: #ffffff,
+    negro: #000000,
+    azul: #3498db,
+    verde: #2ecc71,
+    rojo: #e74c3c
+);
+
+
+@each $nombre-color, $valor-color in $colores {
+    .color-#{$nombre-color} {
+    color: $valor-color;
+    padding: 10px;
+    
+    
+    @if lightness($valor-color) > 50 {
+        background-color: #333; 
+    } @else {
+        background-color: #eee; 
+    }
+    }
+}
 
 
 

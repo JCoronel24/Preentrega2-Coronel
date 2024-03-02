@@ -1,0 +1,38 @@
+// ajuste del tamaño del carousel
+.carousel-inner {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    z-index: 1; 
+}
+
+.carousel-control-prev {
+    left: 9vw; 
+}
+
+.carousel-control-next {
+    right: 9vw; 
+}
+
+.carousel-indicators {
+    bottom: 10px; 
+}
+
+.carousel-inner {
+    overflow: hidden; 
+}
+
+.carousel-item {
+    text-align: center; 
+}
+
+

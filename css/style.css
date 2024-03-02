@@ -25,6 +25,36 @@ h2 {
   font-family: "Dancing_Script";
   src: url("../assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
 }
+.color-blanco {
+  color: #ffffff;
+  padding: 10px;
+  background-color: #333;
+}
+
+.color-negro {
+  color: #000000;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.color-azul {
+  color: #3498db;
+  padding: 10px;
+  background-color: #333;
+}
+
+.color-verde {
+  color: #2ecc71;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.color-rojo {
+  color: #e74c3c;
+  padding: 10px;
+  background-color: #333;
+}
+
 .card-header {
   background-color: #f7f6f6;
   font-family: "Baloo_2", sans-serif;
@@ -51,6 +81,42 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.726);
 }
 
+.carousel-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.carousel-control-prev {
+  left: 9vw;
+}
+
+.carousel-control-next {
+  right: 9vw;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-inner {
+  overflow: hidden;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
 body {
   font-family: "Baloo_2";
 }
@@ -74,6 +140,10 @@ body {
 
 .nav-link:hover {
   color: red;
+}
+
+.align-right {
+  margin-left: auto;
 }
 
 .form-label {
@@ -149,9 +219,7 @@ body {
 }
 
 .lista-adopcion {
-  background-image: url("../assets/images/Logo patita.png");
-  background-repeat: repeat;
-  background-size: auto;
+  background-color: #392815;
   flex-direction: column;
   justify-content: center;
   align-items: center;
